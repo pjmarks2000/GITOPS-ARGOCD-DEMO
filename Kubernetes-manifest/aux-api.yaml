@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: aux-service
-        image: <YOUR_DOCKERHUB_USERNAME>/aux-service:latest
+        image: kellamadin/aux-service:latest
         ports:
         - containerPort: 80
 ---
