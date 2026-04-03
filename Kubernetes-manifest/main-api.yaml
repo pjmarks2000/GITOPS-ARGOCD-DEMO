@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: main-service
-        image: <YOUR_DOCKERHUB_USERNAME>/main-service:latest
+        image: kellyamadin/main-service:latest
         ports:
         - containerPort: 80
 ---
