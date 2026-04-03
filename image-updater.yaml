@@ -16,6 +16,6 @@ spec:
           writeBackTarget: "kustomization:."
       images:
         - alias: main-service
-          imageName: <YOUR_DOCKERHUB_USERNAME>/main-service
+          imageName: kellyamadin/main-service
         - alias: aux-service
-          imageName: <YOUR_DOCKERHUB_USERNAME>/aux-service
+          imageName: kellyamadin/aux-service
